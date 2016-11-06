@@ -18,15 +18,15 @@ playersRef.set({
    
      
        'vitals':{
-       'age':'age',
-       'heartbeat': 'heartbeat',
-       'respiratory_rate':'respiratory_rate',
-       'blood_pressure':{ 'blood_pressure_systolic':'blood_pressure_systolic',
+       'age':20,
+       'heartbeat': 100,
+       'respiratory_rate':18,
+       'blood_pressure':{ 'blood_pressure_systolic':85,
         
-          'blood_pressure_diastolic': 'blood_pressure_diastolic'},
-          'body_temp':'body_temp',
-          'room_temp':'room_temp',
-          'humidity':'humidity'
+          'blood_pressure_diastolic': 90},
+          'body_temp':36.7,
+          'room_temp':28,
+          'humidity':86
             }
    
 	
