@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Morpheus:optimising healthcare</title>
+        <meta name="description" content="Learn how to create a fullscreen slideshow for your scrolling website.">
+        
+        <link rel="author" href="Vyom Sharma">
+
+        <!--iOS -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Place favicon.ico in the root directory -->
+<script src="https://www.gstatic.com/firebasejs/3.5.3/firebase.js"></script>
+      <script>
+        // Initialize Firebase
+        var config = {
+          apiKey: "AIzaSyDpZhqK-2TLzVxAxCic49tX2bQJwhvBrGI",
+          authDomain: "morpheus-e1013.firebaseapp.com",
+          databaseURL: "https://morpheus-e1013.firebaseio.com",
+          storageBucket: "morpheus-e1013.appspot.com",
+          messagingSenderId: "148163207807"
+        };
+        firebase.initializeApp(config);
+      </script>
+     
+
+  <link rel="stylesheet" href="css/form.css">
+
+    </head>
+    <body>
+        
+
+        <!-- Add your site or application content here -->
+       
+
+        <div class="container">
+      <div class="row">
+       <div class="text-center" id="boxme"><span id="page-head" class="text-center">Add Vital Signs</span></div>
+       
+       <form id="MySelector" class="col-xs-12">
+
+        <ul id="form">
+
+        <li> <label for="age">Age</label>
+        <input type="text" name="age" id="age" placeholder="Age"> </li>
+
+        <li><label for="body_temp">Body Temperature(celsius)</label>
+        <input type="text" name="body_temp" id="body_temp" placeholder="in degree celcius"></li>
+
+        <li><label for="heartbeat">HeartBeat(beats per minute)</label> 
+        <input type="text" name="heartbeat" id="heartbeat" placeholder="100"></li>
+
+        <li><label for="respiratory_rate">Respiratory Rate</label> 
+        <input type="text" name="respiratory_rate" id="respiratory_rate" placeholder="enter your resp rate"></li>
+
+        <li><label for="bp_s">Blood Pressure: systolic</label> 
+        <input type="text" name="blood_pressure_systolic" id="blood_pressure_systolic" placeholder="your systolic BP"></li>
+
+        <li><label for="bp_d">Blood Pressure: diastolic</label> 
+        <input type="text" name="blood_pressure_diastolic" id="blood_pressure_diastolic" placeholder="your diastolic BP"></li>
+
+        <li><label for="glucose_level">Glucose Level(mmol/L)</label>
+        <input type="text" name="glucose_level" id="glucose_level" placeholder="Your sugar levels"></li>
+
+        <li><label for="room_temp">Room Temperature</label>
+        <input type="text" name="room_temp" id="room_temp" placeholder="in degree celcius"></li>
+
+        <li><label for="humidity">Humidity</label>
+        <input type="text" name="humidity" id="humidity" placeholder="in mm"></li>        
+        
+        <li><input type="submit" id="sub-vitals"> </li>
+
+        </ul>
+        </form>
+
+       </div>
+    </div>
+
+
+
+<!-- firebase link -->
+        
+
+        <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')</script>
+        
+        
+        <script src="new_a.js"></script>
+       
+    </body>
+</html>
